@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+}
+header h1 {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: lavender;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  background-color: lightblue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+}
+
+nav ul li a:hover {
+  color: #ffff;
+}
+
+nav ul li a {
+  font-weight: 500;
+  text-decoration: none;
+  margin: 25px;
+  color: #000000;
+}
+/* Hamburger menu */
+.hamburgerMenu {
+  display: none;
+  flex-direction: column;
+}
+.hamburgerMenu span {
+}
+/* Hamburger menu */
+
+/* media query */
+@media only screen and (max-width: 500px) {
+  body {
+  }
+  header nav ul {
+    display: none;
+  }
+  header nav {
+    justify-content: space-between;
+  }
+  .hamburgerMenu {
+    display: flex;
+  }
+  .hamburgerMenu span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #000000;
+    margin: 1px;
+  }
+}
+/* media query */
