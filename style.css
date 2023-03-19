@@ -38,6 +38,32 @@ nav ul li a {
   margin: 25px;
   color: #000000;
 }
+/* main */
+
+main section article img {
+  width: 400px;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  /* border: solid; */
+}
+.section2 {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid; */
+}
+.section1:hover {
+  box-shadow: 1px 4px 10px 5px #888888;
+}
+.section2:hover {
+  box-shadow: 1px 4px 10px 5px #888888;
+}
+/* main */
+
 /* Hamburger menu */
 .hamburgerMenu {
   display: none;
@@ -53,6 +79,7 @@ nav ul li a {
   }
   header nav ul {
     display: none;
+    border: solid;
   }
   header nav {
     justify-content: space-between;
@@ -69,3 +96,7 @@ nav ul li a {
   }
 }
 /* media query */
+
+.muncul {
+  display: block;
+}
